@@ -1,0 +1,190 @@
+
+    <!DOCTYPE html>
+    <html>
+    <head>
+      <meta charset="utf-8">
+      <style>
+        body {
+          font-family: 'Arial', sans-serif;
+          margin: 30px;
+          color: #222;
+          line-height: 1.6;
+        }
+        h1 { font-size: 28px; margin-bottom: 10px; }
+        h2 { font-size: 20px; margin-top: 30px; }
+        h3 { font-size: 18px; margin-top: 20px; }
+        h4 { font-size: 16px; margin-top: 15px; margin-bottom: 5px; }
+        table {
+          width: 100%;
+          border-collapse: collapse;
+          margin-top: 10px;
+        }
+        th, td {
+          border: 1px solid #999;
+          padding: 8px;
+          font-size: 12px;
+          text-align: left;
+          vertical-align: top;
+        }
+        th {
+          background-color: #444;
+          color: #fff;
+        }
+        ul { margin: 0; padding-left: 20px; }
+        li { margin-bottom: 5px; }
+        .footer { margin-top: 50px; font-size: 14px; color: #555; }
+        .score-box {
+          display: inline-block;
+          padding: 5px 15px;
+          background-color: #f0f0f0;
+          border-radius: 5px;
+          font-weight: bold;
+          margin-right: 10px;
+        }
+        .section-score {
+          float: right;
+          font-weight: bold;
+        }
+        .ats-verdict {
+          display: inline-block;
+          padding: 5px 10px;
+          border-radius: 5px;
+          font-weight: bold;
+          margin-bottom: 10px;
+        }
+        .ats-fail {
+          background-color: #ffcccc;
+          color: #cc0000;
+        }
+        .ats-needs-improvement {
+          background-color: #fff2cc;
+          color: #b38600;
+        }
+        .match-percentage {
+          font-weight: bold;
+        }
+        .match-high {
+          color: #008800;
+        }
+        .match-medium {
+          color: #b38600;
+        }
+        .match-low {
+          color: #cc0000;
+        }
+      </style>
+    </head>
+    <body>
+    <h1>🚀 Career Summary Card</h1>
+    <p><b>Generated Role Recommendation:</b> <span style="font-size: 16px;">📌 Data Scientist</span></p>
+    
+    <h2>🎯 Resume Score</h2>
+    <p><b>Overall Score:</b> <span class="score-box">4.0 / 10</span></p>
+    <h2>📊 Section Scores</h2>
+            <div>
+              <h3>Summary <span class="section-score">5.0 / 10</span></h3>
+              <h4>Feedback:</h4>
+              <ul><li>The summary is too long and doesn't contain any metrics.</li><li>It is not specific enough and doesn't highlight key achievements or quantifiable results.</li><li>The summary should be concise, ideally one line, and packed with job-aligned keywords and metrics.</li></ul>
+              <h4>Recommended Updates:</h4>
+              <ul><li>Rewrite the summary to be under 3 lines.</li><li>Include at least 5 job-aligned keywords.</li><li>Add metrics to quantify your impact and achievements.</li></ul>
+            </div>
+            
+            <div>
+              <h3>Experience <span class="section-score">6.0 / 10</span></h3>
+              <h4>Feedback:</h4>
+              <ul><li>Many bullet points lack specific metrics to quantify impact.</li><li>Some bullet points start with weak verbs or phrases like 'Developed' which could be more impactful.</li><li>Several bullet points describe tasks without highlighting the results or benefits.</li></ul>
+              <h4>Recommended Updates:</h4>
+              <ul><li>Add metrics ($, %, time saved) to each bullet point to quantify your impact.</li><li>Use the Verb + Metric + Result format (STAR) to structure your bullet points.</li><li>Focus on outcomes and benefits rather than just describing tasks.</li></ul>
+            </div>
+            
+            <div>
+              <h3>Skills <span class="section-score">6.0 / 10</span></h3>
+              <h4>Feedback:</h4>
+              <ul><li>The skills are not well-clustered into categories.</li><li>Some skills are listed without context or proficiency levels.</li><li>There is a mix of programming languages, tools, and methodologies without clear separation.</li></ul>
+              <h4>Recommended Updates:</h4>
+              <ul><li>Cluster skills into categories such as Programming, ML, Cloud, and Data Viz.</li><li>Specify proficiency levels (e.g., Expert, Intermediate) for each skill.</li><li>Remove outdated or unrelated technologies.</li></ul>
+            </div>
+            
+            <div>
+              <h3>Tools <span class="section-score">7.0 / 10</span></h3>
+              <h4>Feedback:</h4>
+              <ul><li>The tools are categorized, which is good, but could benefit from more specific proficiency levels.</li><li>Some categories might need further refinement to be more aligned with the target job titles.</li><li>Consider adding more specific tools within each category to showcase a broader range of expertise.</li></ul>
+              <h4>Recommended Updates:</h4>
+              <ul><li>Add proficiency levels (Expert/Intermediate) to each tool.</li><li>Refine categories to be more specific and aligned with Data Scientist/ML Engineer roles.</li><li>Include a wider range of relevant tools within each category.</li></ul>
+            </div>
+            
+            <div>
+              <h3>Projects <span class="section-score">1.0 / 10</span></h3>
+              <h4>Feedback:</h4>
+              <ul><li>No projects are listed, which is a significant omission.</li><li>Projects are crucial for demonstrating practical skills and experience.</li><li>Without projects, it's difficult to assess your ability to apply your skills to real-world problems.</li></ul>
+              <h4>Recommended Updates:</h4>
+              <ul><li>Add 2-3 projects with 1-line outcomes and links to GitHub or live demos.</li><li>Focus on projects with measurable business impact.</li><li>Use the 'Did X by doing Y, which resulted in Z' format to describe each project.</li></ul>
+            </div>
+            <h2>🛠 ATS Compliance</h2>
+        <div>
+          <div class="ats-verdict ats-needs-improvement">Verdict: Needs Improvement</div>
+          <h3>Visual Issues:</h3>
+          <ul><li>The resume uses a slightly complex layout which might hinder ATS parsing. It should use a minimalist design.</li><li>The resume includes a section called 'Skills and Interests'. It should be labeled as 'Skills'.</li><li>The resume includes a skills section at the end of each job description. Skills should be listed in a dedicated skills section.</li><li>The resume includes dates on the right side of the page, which might be hard for the ATS to parse.</li><li>The resume includes a URL, which might not be parsed correctly by the ATS.</li><li>The resume uses a mix of bold and regular text, which might confuse the ATS.</li></ul>
+        </div>
+        
+        <div>
+          <div class="ats-verdict ats-fail">Verdict: Fail</div>
+          <h3>Visual Issues:</h3>
+          <ul><li>The resume uses a non-standard section heading. It should use standard section headings such as Work Experience, Skills, and Education.</li><li>The resume does not quantify achievements using metrics or the X-Y-Z formula.</li><li>The resume does not use an ATS-friendly template with minimalist design.</li><li>The resume may contain unusual fonts that are not ATS-friendly.</li><li>The resume may contain complex formatting that is not ATS-friendly.</li></ul>
+        </div>
+        <h2>📍 Resume Entity Mapping</h2><ul><li><b>Job_type:</b> Full-time</li><li><b>Seniority_level:</b> Mid</li><li><b>Target_job_title:</b> Data Scientist, ML Engineer</li><li><b>Location:</b> Austin, Texas</li><li><b>Skills:</b> SQL, Python, Machine Learning, NumPy, Pandas, Alteryx, Javascript, Git, JIRA, HTML, XML, CSS, Alteryx, Tableau, Microsoft Power BI, MS Excel, MS Powerpoint, Pentaho, Microsoft Azure, Tableau, Data Visualization, Reporting, Microsoft PowerPoint, Statistics, Microsoft Azure, NodeJS, MongoDB, JIRA, Unit testing, Technical Documentation, Agile methodology, Software Development, HTML5, CSS, Javascript, UI /UX design, SQL, Python, Numpy, Machine Learning, Web scraping, Data Mining, Natural Language Processing</li><li><b>Degree:</b> Masters in Information Science & Technology, Data Analysis, Bertelsmann Data Science challenge Scholarship Nanodegree from Udacity, Bachelors in Computer Science</li><li><b>Projects:</b> </li><li><b>Certifications:</b> </li><li><b>Tools_grouped:</b> {'Other': ['Git', 'JIRA', 'Agile methodology'], 'ML': ['Machine Learning', 'NLTK', 'sci-kit learn'], 'Databases': ['SQL', 'MongoDB', 'Snowflake', 'Oracle'], 'Cloud': ['Microsoft Azure'], 'Programming': ['Python', 'Javascript', 'NodeJS', 'HTML', 'XML', 'CSS']}</li><li><b>Experience:</b> Client Data Specialist, Technology, Operations Analyst, Business Intelligence, Graduate assistant, Data Analyst, Research and Software Development Intern, Graduate Assistant, Application Developer, Research Assistant, Data Analysis -NLP and Machine Learning</li><li><b>Summary_text:</b> A research-oriented experienced data science professional with skills in transforming data to informed decisions that drive business growth</li><li><b>Bullet_points:</b> Optimized data delivery pipeline by automating the report generation, quality checks & communication to the vendors., Developed bots thereby reducing the dependency of manual tasks for publishing assets & transaction data & KPI metrics to Slack channels., Developed multiple Data Quality Automation checks for proactive monitoring of issues in the data pipeline, Leaded the migration of python codebase from Oracle to Snowflake, Designed an OCR solution by automating text extraction from PDF capable of achieving 0.7 Headcount and financial savings., Achieved 0.5 headcount savings by forecasting headcount and resources required to handle the projected volume of work using Polynomial linear regression., Aggregated approx 95M client’s private wealth related data and published dashboards in Tableau for senior management teams., Developed an end to end Machine Learning Model for recommending investment strategies to the client based on their portfolio., Designed multiple interactive Tableau dashboards to visualize the business process, capacity models and projected growth for each department and to capture multiple KPIs., Coordinated with stakeholders to identify business requirements and presented projects and dashboards to the Senior Management and various Team Managers to gather necessary feedback on a quarterly basis., Effective analysis by hypothesis testing and tests of significance to validate the performance improvement of students on tests., Conducted regression analysis and correlation for student department data to analyze the relationship between the strategies used to improve the grades of students and the outcome., Published visualizations incorporating techniques of guided analytics using Tableau for various student affairs departments., Gathered the requirements and co-ordinated with administrative staff for feedback and improvement of visualizations., Delivered quality code for server-side and user interface of the software utilizing the Agile process., Developed and implemented the core functionality of applications using NodeJS for backend and MongoDB (MEAN stack), Participated as a SCRUM member in brainstorming solutions to enhance the quality of software through testing and feedback., Enhanced the quality of application by incorporating application insights Microsoft Azure., Collaborated in entering and updating issues into JIRA agile application and code documentation in Atlassian Confluence., Developed an interactive and dynamic web application for creating American Sign Language from Natural Language., Collaborated with the interaction designers and brainstormed the UI mockups and wireframes., Achieved pixel-perfection while designing the application to match the desired prototype., Implemented supervised learning algorithms for document classification such as decision trees, SVM, Naive Bayes and Logistic regression using NLTK, sci-kit learn and Pandas in python., Applied clustering and topic modeling processes such as LDA, HLDA, and MALLET to analyze the quality of the crowdsource requirements and identify the creative requirements., Improved the efficiency of the requirement engineering process by automating the process up to 50% which positively impacts the speed of the RE process., Automated the data aggregation by scraping the e-commerce website for product details., Working on creativity prediction using a rule-based algorithm.</li></ul>
+    <h2>💼 Job Match Summary</h2>
+    <table>
+      <tr>
+        <th>Title</th>
+        <th>Match %</th>
+        <th>Skills Present</th>
+        <th>Skills Missing</th>
+        <th>Match Analysis</th>
+      </tr>
+    
+        <tr>
+          <td>Data Scientist (YETI Test Events Job Board)</td>
+          <td class="match-percentage match-high">85%</td>
+          <td>AI/ML, advanced analytics, data modeling, Python, R, Hadoop, Hive, Spark, Tableau</td>
+          <td>Matlab, AWS Lambda, PowerBI</td>
+          <td>This role is a good fit. The candidate possesses a strong background in data analysis, machine learning, and automation, aligning well with the job's requirements. Their experience in financial servic...</td>
+        </tr>
+        
+        <tr>
+          <td>Senior Data Scientist (Roku)</td>
+          <td class="match-percentage match-high">80%</td>
+          <td>SQL, Python, R, Tableau, Statistics, A/B testing, data visualization</td>
+          <td>Looker</td>
+          <td>This role is a good fit, aligning with the candidate's experience and skills. The candidate's expertise in data analysis, machine learning, and communication makes them well-suited to partner with bus...</td>
+        </tr>
+        
+        <tr>
+          <td>Quantitative Analyst (Base Power Company)</td>
+          <td class="match-percentage match-high">75%</td>
+          <td>Mathematics, Physics, Engineering, Python, SQL, statistical background, problem-solving, analytical thinking</td>
+          <td></td>
+          <td>This role is a good fit, although it may require the candidate to adapt their data science skills to a more quantitative finance context. The candidate's background in data analysis and machine learni...</td>
+        </tr>
+        
+        <tr>
+          <td>Data Analyst Intern (Summer) (IntegraFEC)</td>
+          <td class="match-percentage match-low">20%</td>
+          <td>Data Analysis</td>
+          <td></td>
+          <td>This role is a poor fit for an experienced data science professional. The candidate's extensive experience and skills far exceed the requirements of an internship. Taking this role would be a signific...</td>
+        </tr>
+        
+        <tr>
+          <td>Administrative Assistant / Office Manager (IntegraFEC)</td>
+          <td class="match-percentage match-low">5%</td>
+          <td></td>
+          <td></td>
+          <td>This role is a very poor fit for an experienced data science professional. The candidate's skills and experience are not relevant to this position. Taking this role would be a significant underutiliza...</td>
+        </tr>
+        
+    </table>
+    <p class="footer">✅ Generated using Python on Kaggle 💻</p>
+    </body>
+    </html>
+    
